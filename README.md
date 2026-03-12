@@ -14,6 +14,8 @@ step5.2:- for each copy activites need to select source linked service and for e
 
 step5.3:-one we created copy activites now validate it and check is there any errors or not. after that pulish it and now trigger the pipelines now. all the data comes to bronze layer and goes to different folders.which already created.
 step6:-create a azure databricks account and login  & create a cluster to run notebooks and create a folder inside folder create a notebook . attach a cluster  to this notebook..
+<img width="955" height="494" alt="image" src="https://github.com/user-attachments/assets/37871399-a582-49f0-ac3b-96566741d412" />
+
 step6.1:-inside adb notebook by using azure acess keys (inside adls storage account). we created a mount point inside notebook to access adls data.
 stepp6.2:-we access data and did some trasformations like column names and dtaa types and stored back into adls gen2 silver folder as a delta format. finally inside cleansed data  in adb notebook we stored in adls gen2 gold layer folder. 
 step7:- we downloaded final cleansed data inside adb notebook as csv data
